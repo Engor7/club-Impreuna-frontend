@@ -1,0 +1,18 @@
+@forward 'reset';
+@forward 'colors';
+@forward 'mixins';
+
+body {
+	font-family: 'Rubik', sans-serif;
+	font-style: normal;
+	background: var(--background-body);
+	color: var(--color-text);
+}
+
+html,
+body,
+#app {
+	height: 100svh;
+	margin: 0;
+	overflow: hidden;
+}
