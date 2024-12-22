@@ -34,6 +34,14 @@
 
 <template>
 	<div class="create-page">
+		<div class="create-page__img">
+			<img src="https://s3.timeweb.cloud/320d6128-c3b021bb-59f1-4c90-b27e-4428e48b03c6/logo_st.png" alt="" />
+			<img src="/icon_fv.svg" alt="" />
+			<img
+				src="https://images.unsplash.com/photo-1734378377292-212b58560ff8?q=80&w=2599&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+				alt=""
+			/>
+		</div>
 		<div class="create-page__buttons">
 			<button @click="addUser">Add users</button>
 			<button @click="getUsers">Get users</button>
@@ -72,6 +80,12 @@
 			div {
 				border: 1px solid #bbb;
 				padding: 12px;
+			}
+		}
+
+		&__img {
+			img {
+				width: 100px;
 			}
 		}
 	}
