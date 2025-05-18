@@ -1,9 +1,41 @@
 :root {
-	--background-body: #fff;
-	--color-text: #111;
+	// Background
+	--bg-body: #ffffff;
+	--bg-button: #455eff;
+	--bg-button-cancel: #eee;
+	--bg-overlay: rgba(255, 255, 255, 0.2);
+	--bg-body-modal: #ffffff;
+
+	// Text
+	--text-primary: #000000;
+	--text-primary-reversal: #ffffff;
+
+	// Border
+	--border-nav-top: #f7f7f7;
+	--border-body-modal: #ffffff;
+	--border-block: #e3e3e3;
+
+	// shadow
+	--shadow-body-modal: 0 0 300px #525252;
 }
 
 .dark-theme {
-	--background-body: #111;
-	--color-text: #fff;
+	// Background
+	--bg-body: #000000;
+	--bg-button: #2f4afc;
+	--bg-button-cancel: rgba(255, 255, 255, 0.11);
+	--bg-overlay: rgba(0, 0, 0, 0.5);
+	--bg-body-modal: #131313;
+
+	// Text
+	--text-primary: #ffffff;
+	--text-primary-reversal: #000000;
+
+	// Border
+	--border-nav-top: #171717;
+	--border-body-modal: #1c1c1c;
+	--border-block: #222222;
+
+	// shadow
+	--shadow-body-modal: 0 0 200px #1a1a1a;
 }

@@ -1,12 +1,14 @@
 @forward 'reset';
 @forward 'colors';
 @forward 'mixins';
+@forward 'userCard/styles.scss';
 
 body {
 	font-family: 'Rubik', sans-serif;
 	font-style: normal;
-	background: var(--background-body);
-	color: var(--color-text);
+	background: var(--bg-body);
+	color: var(--text-primary);
+	font-size: 14px;
 }
 
 html,
@@ -15,4 +17,40 @@ body,
 	height: 100svh;
 	margin: 0;
 	overflow: hidden;
+}
+
+body {
+	//border-top: 1px solid var(--border-body-top);
+}
+
+.page-edit-view {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	overflow: auto;
+	position: fixed;
+	background: var(--bg-body);
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	padding: 8px 8px env(safe-area-inset-bottom) 8px;
+	z-index: 1000;
+
+	&__body {
+		margin-bottom: auto;
+	}
+
+	&__header {
+		font-size: 28px;
+		margin-bottom: 24px;
+		text-align: center;
+	}
+
+	&__sub-info {
+		opacity: 0.6;
+		font-size: 11px;
+		padding-bottom: 8px;
+		text-align: center;
+	}
 }

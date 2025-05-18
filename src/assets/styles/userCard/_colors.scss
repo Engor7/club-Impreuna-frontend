@@ -1,0 +1,21 @@
+:root {
+	// style 1
+	--bg-style-1: #000000;
+	--text-color-1: #ffffff;
+	--shadow-buttons-1: none;
+	--border-buttons-1: 1px solid #424242;
+	--color-buttons-1: #cecece;
+	--color-back-button-1: #505050;
+	--border-back-button-1: 1px solid #343434;
+}
+
+.dark-theme {
+	// style 1
+	--bg-style-1: #ffffff;
+	--text-color-1: #000000;
+	--shadow-buttons-1: none;
+	--border-buttons-1: 1px solid #d9d9d9;
+	--color-buttons-1: #282828;
+	--color-back-button-1: #a6a6a6;
+	--border-back-button-1: 1px solid #e5e5e5;
+}

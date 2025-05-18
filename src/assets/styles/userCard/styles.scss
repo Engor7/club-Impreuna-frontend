@@ -1,0 +1,69 @@
+@forward 'colors';
+
+.user-card-style {
+	&_st-1 {
+		--text-color: var(--text-color-1);
+		--bg-style: var(--bg-style-1);
+
+		.user-card__buttons button {
+			box-shadow: var(--shadow-buttons-1);
+			border: var(--border-buttons-1);
+			color: var(--color-buttons-1);
+
+			&:last-child {
+				color: #ff2525;
+			}
+
+			&.user-card__back-button {
+				color: var(--color-back-button-1);
+				border: var(--border-back-button-1);
+				opacity: 1;
+			}
+		}
+	}
+
+	&_st-2 {
+		--text-color: #ffffff;
+		--bg-style: linear-gradient(43deg, #4158d0 0%, #c850c0 46%, #ffcc70 100%);
+	}
+
+	&_st-3 {
+		--text-color: #ffffff;
+		--bg-style: linear-gradient(135deg, #81fbb8 10%, #28c76f 100%);
+	}
+
+	&_st-4 {
+		--text-color: #ffffff;
+		--bg-style: linear-gradient(160deg, #0093e9 0%, #80d0c7 100%);
+	}
+
+	&_st-5 {
+		--text-color: #ffffff;
+		--bg-style: linear-gradient(135deg, #fccf31 10%, #f55555 100%);
+	}
+
+	&_st-6 {
+		--text-color: #ffffff;
+		--bg-style: #c2ae2b;
+	}
+
+	&_st-7 {
+		--text-color: #ffffff;
+		--bg-style: #cf01e4;
+	}
+
+	&_st-8 {
+		--text-color: #191919;
+		--bg-style: #a3ff8f;
+	}
+
+	&_st-9 {
+		--text-color: #ffffff;
+		--bg-style: #00a6ff;
+	}
+
+	&_st-10 {
+		--text-color: #ffffff;
+		--bg-style: #fd6565;
+	}
+}

@@ -3,8 +3,10 @@ import { createRouter, createWebHistory } from 'vue-router'
 import MainLayout from '../components/Layout/MainLayout.vue'
 import ErrorLayout from '../components/Layout/ErrorLayout.vue'
 
-import HomeView from '../views/HomeView.vue'
+import PeopleView from '../views/PeopleView.vue'
 import ProfileView from '../views/ProfileView.vue'
+import MatchesView from '../views/MatchesView.vue'
+import ChatView from '../views/ChatView.vue'
 import NotFoundView from '../views/NotFoundView.vue'
 
 const routes = [
@@ -12,8 +14,10 @@ const routes = [
 		path: '/',
 		component: MainLayout,
 		children: [
-			{ path: '', name: 'Home', component: HomeView },
-			{ path: 'profile', name: 'Porifle', component: ProfileView },
+			{ path: '', name: 'Profile', component: ProfileView },
+			{ path: 'people', name: 'People', component: PeopleView },
+			{ path: 'matches', name: 'Matches', component: MatchesView },
+			{ path: 'chat', name: 'Chat', component: ChatView },
 		],
 	},
 	{

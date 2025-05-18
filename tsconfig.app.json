@@ -6,9 +6,11 @@
 		"module": "ESNext",
 		"lib": ["ES2020", "DOM", "DOM.Iterable"],
 		"skipLibCheck": true,
+		"resolveJsonModule": true,
+		"esModuleInterop": true,
 
 		/* Bundler mode */
-		"moduleResolution": "Bundler",
+		"moduleResolution": "Node",
 		"allowImportingTsExtensions": true,
 		"isolatedModules": true,
 		"moduleDetection": "force",
@@ -20,7 +22,14 @@
 		"noUnusedLocals": true,
 		"noUnusedParameters": true,
 		"noFallthroughCasesInSwitch": true,
-		"noUncheckedSideEffectImports": true
+		"noUncheckedSideEffectImports": true,
+
+		/* Alias */
+		"baseUrl": ".",
+		"paths": {
+			"@/*": ["src/*"]
+		},
+		"allowSyntheticDefaultImports": true
 	},
-	"include": ["src/**/*.ts", "src/**/*.tsx", "src/**/*.vue"]
+	"include": ["src/**/*.ts", "src/**/*.tsx", "src/**/*.vue", "src/**/*.d.ts"]
 }

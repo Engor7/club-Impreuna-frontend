@@ -1,3 +1,23 @@
 {
-	"welcome": "Welcome to Vue with i18n!"
+	"nav": {
+		"chat": "Chat",
+		"people": "People",
+		"matches": "Matches",
+		"i": "Profile"
+	},
+	"warning": {
+		"useMobileApp": "Please use the app on your phone (iOS or Android) for full access."
+	},
+	"errors": {
+		"title": "Something went wrong",
+		"description": {
+			"line1": "An unexpected error occurred.",
+			"line2": "Please try again."
+		},
+		"retryLater": "Try again in: {time}"
+	},
+	"common": {
+		"loading": "Loading",
+		"retry": "Try again"
+	}
 }
